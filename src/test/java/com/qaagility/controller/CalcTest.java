@@ -31,8 +31,13 @@ public class CalcTest {
 	@Test	
       public void Test111() {
 Calcmul pp=new Calcmul();
+Calculator cl=new Calculator();
 int res=pp.mul();
+int res1=cl.add();
         assertEquals("Result - Fail", 18, res);
+	assertEquals(pp.mul(),18);
+	assertEquals(pp.add(),9);
+	
       }
 	
 	
